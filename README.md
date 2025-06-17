@@ -51,8 +51,9 @@
 * If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+* The types of measurements for things such as height, weight etc were not included, to resolve this we asked Copilot what it thought the most reasonable assumption of the measurements are.
+* One aspect of data cleaning was overlooked, 'VW' should have been changed to 'Volkswagen' in the Jupyter notebook. This was solved by using the 'groupby' function in Tableau to group VW under Volkswagen. 
+
 
 
 
@@ -62,8 +63,10 @@
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* Code Institute Learning Management System modules on pandas and tableau
+* Microsoft co-pilot aid in code generation
+* Chat-GPT for questions regarding dashboarding in Tableau
+* [Markdown Guide](https://www.markdownguide.org/)
 
 ### Content 
 
@@ -73,12 +76,10 @@
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
+- Header image was made using Canva
 
 
 ## Acknowledgements (optional)
-* Thank the people who provided support through this project.git
+* A huge thank you to Mark, Emma, John, Spencer and Niel from Code institute for their hard work in tutoring us! And a thank you to Carlos who showed me how to add a back to to the top button on markdown. 
 
 [Back to top](#top)
