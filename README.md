@@ -38,7 +38,7 @@
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
 ## Ethical considerations
-* The dataset is not sensitive information and thus does not require anonymisation or other ethical steps.
+* The dataset contains no sensitive information and thus does not require anonymisation or other ethical steps.
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
@@ -72,6 +72,6 @@
 
 
 ## Acknowledgements (optional)
-* A huge thank you to Mark, Emma, John, Spencer and Niel from Code institute for their hard work in tutoring us! And a thank you to Carlos who showed me how to add a back to to the top button on markdown. 
+* A huge thank you to Mark, Emma, John, Spencer and Niel from Code institute for their hard work in tutoring us! And a thank you to Carlos who showed us how to add a back to the top button on markdown. 
 
 [Back to top](#top)
