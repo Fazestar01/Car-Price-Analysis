@@ -14,7 +14,8 @@
 
 
 ## Business Requirements
-* Describe your business requirements
+* The problem statement on Kaggle defines the business reqirements. 
+* The problem statement states that we are assuming the role of a consultant 
 
 
 ## Hypothesis and how to validate?
