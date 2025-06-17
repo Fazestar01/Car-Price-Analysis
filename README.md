@@ -72,7 +72,7 @@
 - Header image was made using Canva
 
 
-## Acknowledgements (optional)
+## Acknowledgements
 * A huge thank you to Mark, Emma, John, Spencer and Niel from Code institute for their hard work in tutoring us! And a thank you to Carlos who showed us how to add a back to the top button on markdown. 
 
 [Back to top](#top)
