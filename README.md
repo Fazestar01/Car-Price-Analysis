@@ -15,7 +15,8 @@
 
 ## Business Requirements
 * The problem statement on Kaggle defines the business reqirements. 
-* The problem statement states that we are assuming the role of a consultant 
+* The problem statement states that we are assuming the role of a consultant for the automotive company Geely Auto.
+* We have been tasked with examining how different factors effect pricing across the US market.
 
 
 ## Hypothesis and how to validate?
