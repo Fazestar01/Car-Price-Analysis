@@ -49,8 +49,8 @@ car_ID,symboling,CarName,fueltype,aspiration,doornumber,carbody,drivewheel,engin
 48,0,Jaguar Xj,gas,std,four,sedan,rwd,front,113.0,199.6,69.6,52.8,4066,dohc,6,258,mpfi,3.63,4.17,8.1,176,4750,15,19,32250.0
 49,0,Jaguar Xf,gas,std,four,sedan,rwd,front,113.0,199.6,69.6,52.8,4066,dohc,6,258,mpfi,3.63,4.17,8.1,176,4750,15,19,35550.0
 50,0,Jaguar Xk,gas,std,two,sedan,rwd,front,102.0,191.7,70.6,47.8,3950,ohcv,12,326,mpfi,3.54,2.76,11.5,262,5000,13,17,36000.0
-51,1,Maxda Rx3,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1890,ohc,4,91,2bbl,3.03,3.15,9.0,68,5000,30,31,5195.0
-52,1,Maxda Glc Deluxe,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1900,ohc,4,91,2bbl,3.03,3.15,9.0,68,5000,31,38,6095.0
+51,1,Mazda Rx3,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1890,ohc,4,91,2bbl,3.03,3.15,9.0,68,5000,30,31,5195.0
+52,1,Mazda Glc Deluxe,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1900,ohc,4,91,2bbl,3.03,3.15,9.0,68,5000,31,38,6095.0
 53,1,Mazda Rx2 Coupe,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1905,ohc,4,91,2bbl,3.03,3.15,9.0,68,5000,31,38,6795.0
 54,1,Mazda Rx-4,gas,std,four,sedan,fwd,front,93.1,166.8,64.2,54.1,1945,ohc,4,91,2bbl,3.03,3.15,9.0,68,5000,31,38,6695.0
 55,1,Mazda Glc Deluxe,gas,std,four,sedan,fwd,front,93.1,166.8,64.2,54.1,1950,ohc,4,91,2bbl,3.08,3.15,9.0,68,5000,31,38,7395.0
@@ -125,7 +125,7 @@ car_ID,symboling,CarName,fueltype,aspiration,doornumber,carbody,drivewheel,engin
 124,-1,Plymouth Valiant,gas,std,four,wagon,fwd,front,103.3,174.6,64.6,59.8,2535,ohc,4,122,2bbl,3.35,3.46,8.5,88,5000,24,30,8921.0
 125,3,Plymouth Duster,gas,turbo,two,hatchback,rwd,front,95.9,173.2,66.3,50.2,2818,ohc,4,156,spdi,3.59,3.86,7.0,145,5000,19,24,12764.0
 126,3,Porsche Macan,gas,std,two,hatchback,rwd,front,94.5,168.9,68.3,50.2,2778,ohc,4,151,mpfi,3.94,3.11,9.5,143,5500,19,27,22018.0
-127,3,Porcshce Panamera,gas,std,two,hardtop,rwd,rear,89.5,168.9,65.0,51.6,2756,ohcf,6,194,mpfi,3.74,2.9,9.5,207,5900,17,25,32528.0
+127,3,Porsche,gas,std,two,hardtop,rwd,rear,89.5,168.9,65.0,51.6,2756,ohcf,6,194,mpfi,3.74,2.9,9.5,207,5900,17,25,32528.0
 128,3,Porsche Cayenne,gas,std,two,hardtop,rwd,rear,89.5,168.9,65.0,51.6,2756,ohcf,6,194,mpfi,3.74,2.9,9.5,207,5900,17,25,34028.0
 129,3,Porsche Boxter,gas,std,two,convertible,rwd,rear,89.5,168.9,65.0,51.6,2800,ohcf,6,194,mpfi,3.74,2.9,9.5,207,5900,17,25,37028.0
 130,1,Porsche Cayenne,gas,std,two,hatchback,rwd,front,98.4,175.7,72.3,50.5,3366,dohcv,8,203,mpfi,3.94,3.11,10.0,288,5750,17,28,31400.5
@@ -180,8 +180,8 @@ car_ID,symboling,CarName,fueltype,aspiration,doornumber,carbody,drivewheel,engin
 179,3,Toyota Corolla Liftback,gas,std,two,hatchback,rwd,front,102.9,183.5,67.7,52.0,2976,dohc,6,171,mpfi,3.27,3.35,9.3,161,5200,20,24,16558.0
 180,3,Toyota Corona,gas,std,two,hatchback,rwd,front,102.9,183.5,67.7,52.0,3016,dohc,6,171,mpfi,3.27,3.35,9.3,161,5200,19,24,15998.0
 181,-1,Toyota Starlet,gas,std,four,sedan,rwd,front,104.5,187.8,66.5,54.1,3131,dohc,6,171,mpfi,3.27,3.35,9.2,156,5200,20,24,15690.0
-182,-1,Toyouta Tercel,gas,std,four,wagon,rwd,front,104.5,187.8,66.5,54.1,3151,dohc,6,161,mpfi,3.27,3.35,9.2,156,5200,19,24,15750.0
-183,2,Vokswagen Rabbit,diesel,std,two,sedan,fwd,front,97.3,171.7,65.5,55.7,2261,ohc,4,97,idi,3.01,3.4,23.0,52,4800,37,46,7775.0
+182,-1,Toyota Tercel,gas,std,four,wagon,rwd,front,104.5,187.8,66.5,54.1,3151,dohc,6,161,mpfi,3.27,3.35,9.2,156,5200,19,24,15750.0
+183,2,Volkswagen Rabbit,diesel,std,two,sedan,fwd,front,97.3,171.7,65.5,55.7,2261,ohc,4,97,idi,3.01,3.4,23.0,52,4800,37,46,7775.0
 184,2,Volkswagen 1131 Deluxe Sedan,gas,std,two,sedan,fwd,front,97.3,171.7,65.5,55.7,2209,ohc,4,109,mpfi,3.19,3.4,9.0,85,5250,27,34,7975.0
 185,2,Volkswagen Model 111,diesel,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2264,ohc,4,97,idi,3.01,3.4,23.0,52,4800,37,46,7995.0
 186,2,Volkswagen Type 3,gas,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2212,ohc,4,109,mpfi,3.19,3.4,9.0,85,5250,27,34,8195.0
