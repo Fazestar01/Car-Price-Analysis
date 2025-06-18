@@ -59,7 +59,7 @@ With a low R-Squared value of 0.01 and higher P-value of 0.089 we can see that t
 With high R-Squared value of 0.76 and a P-value of 0.0001 this factor is the best predictor for price, with an incredibly strong relationship. 
 
 #### Verdict:
-All factors except for car height are good predictors for car pricing, with engine size having the strongest correlation with price. We can accept the altenative hypothesis and reject the null hypothesis.
+All factors except for car height are good predictors for car pricing, with engine size having the strongest correlation with price. We can accept the alternative hypothesis and reject the null hypothesis.
 
 ### *Hypothesis 2* Brand names have an impact on car pricing:
 ![alt text](image-7.png)
