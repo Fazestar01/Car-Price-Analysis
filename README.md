@@ -15,18 +15,52 @@
 
 
 ## Business Requirements
-* The problem statement on Kaggle defines the business reqirements. 
+* The problem statement on Kaggle defines the business requirements. 
 * The problem statement states that we are assuming the role of a consultant for the automotive company Geely Auto.
 * We have been tasked with examining how different factors effect pricing across the US market.
 
 
 ## Hypothesis and how to validate?
-###  *Hypothesis 1*: vehicle and engine size are the primary drivers of car pricing:
-* This will be validated via linear regression models to display the R Squared values and P values of length, width, height and engine size. With this can identify how strong the model is with the R squared values and how confident we are with the p values.
-### *Hyothesis 2*: Brand names have an impact on car pricing:
+###  *Hypothesis 1* vehicle and engine size are the primary drivers of car pricing:
+* This will be validated via linear regression models to display the R-Squared values and P-values of length, width, height and engine size. With this can identify how strong the model is with the R-squared values and how confident we are with the P-values.
+### *Hypothesis 2* Brand names have an impact on car pricing:
 * This will be validated using a bar chart to see the differences in pricing and car brand. We will then use a boxplot chart to identify the distribution of pricing within those brands to gain greater insights.
-### *Hypothesis 3*: Drive wheel is a key differentiator in pricing strategy:
+### *Hypothesis 3* Drive wheel is a key differentiator in pricing strategy:
 * We will validate this by using a boxplot chart that shows the distribution of pricing across rear wheel, four wheel and front wheel drive. 
+
+## Hypothesis testing:
+All visualisations that test our hypotheses can be found in this [Dashboard](https://public.tableau.com/app/profile/kaori.ikarashi/viz/CarPriceAnalysis_17501618237170/Story1?publish=yes). 
+
+### Hypothesis 1: vehicle and engine size are the primary drivers of car pricing:
+#### linear regression model:
+![alt text](image-3.png)
+
+*The R-Squared and P-Values are displayed in the tooltip of the dashboard visualisations* 
+#### Is car length a primary driver of car pricing?
+
+
+![car length hypothesis](image-1.png)
+
+With an R-Squared value of 0.46 we can see see that the car length linear regression model is a moderate fit and with a P-value of 0.0001 we can be highly confident in that relationship.
+
+#### Is car width a primary driver in car pricing?
+![car width hypothesis](image-2.png)
+
+With an R-Squared value of 0.58 (rounded up to two decimal places) the model is an even better fit than car length and with P-Value of 0.0001 we can be highly confident in this finding.
+
+#### Is car height a primary driver in car pricing?
+![car height hypothesis](image-4.png)
+
+With a low R-Squared value of 0.01 and higher P-value of 0.089 we can see that there seems to be no meaningful relationship between car height and car pricing.
+
+#### Is Engine size a primary driver in car pricing?
+![Engine Size hypothesis](image-6.png)
+
+With high R-Squared value of 0.76 and a P-value of 0.0001 this factor is the best predictor for price, with an incredibly strong relationship. 
+
+#### verdict:
+All factors except for car height are good predictors for car pricing, with engine size having the strongest correlation with price. 
+
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
@@ -55,6 +89,7 @@
 ## Development Roadmap and issues faced
 * The types of measurements for things such as height, weight etc were not included, to resolve this we asked Copilot what it thought the most reasonable assumption of the measurements are.
 * One aspect of data cleaning was overlooked, 'VW' should have been changed to 'Volkswagen' in the Jupyter notebook. This was solved by using the 'groupby' function in Tableau to group VW under Volkswagen. 
+* We had struggles with git that were resolved with a mixture of co-pilot and help from our tutors.
 
 
 
