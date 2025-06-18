@@ -22,7 +22,7 @@
 
 ## Hypothesis and how to validate?
 ###  *Hypothesis 1* vehicle and engine size are the primary drivers of car pricing:
-* This will be validated via linear regression models to display the R-Squared values and P-values of length, width, height and engine size. With this can identify how strong the model is with the R-squared values and how confident we are with the P-values.
+* This will be validated via linear regression models to display the R-Squared values and P-values of length, width, height and engine size. With this we can identify how strong the model is with the R-squared values and how confident we are with the P-values.
 ### *Hypothesis 2* Brand names have an impact on car pricing:
 * This will be validated using a bar chart to see the differences in pricing and car brand. We will then use a boxplot chart to identify the distribution of pricing within those brands to gain greater insights.
 ### *Hypothesis 3* Drive wheel is a key differentiator in pricing strategy:
@@ -81,12 +81,69 @@ Our hypothesis is correct that is a relationship between drive wheel and price, 
 
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+### High-Level Steps Taken
+
+**Angle Used**  
+This project investigates the key factors that influence car pricing in the U.S. market, focusing on how different factors shape value. The goal was to generate actionable insights that could support pricing strategy, competitive positioning, or product development for an automotive company entering the market.
+
+**Dataset Selection**  
+We selected the [Car Price Prediction dataset on Kaggle](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction) for its wide coverage of useful variables — including brand, engine size, weight and more making it ideal for both statistical testing and visual storytelling.
+
+**Planning & Analysis Flow**
+- Defined hypotheses (H1–H4) to guide exploratory work and support business-focused questions.
+- Performed descriptive analysis to explore distributions, spot outliers, and assess feature importance.
+- Conducted hypothesis testing using linear regression and data visualisations.
+- Built interactive visual dashboards in Tableau to present findings in a clear and engaging format.
+
+**Data Cleaning**
+- Removed duplicates and handled missing/null values.
+- Fix errors in the data.
+- Encode to variables to numeric if necessary.
+
+### Data Management Throughout the Project
+
+| **Step**        | **Action**                                                                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Collection**  | Downloaded CSV file from Kaggle and stored it in a version-controlled GitHub repository for team collaboration.                                       |
+| **Processing**  | Used Python (Pandas) in Jupyter Notebook to clean and transform data, including formatting, encoding, and feature engineering.                         |
+| **Analysis**    | Performed EDA in both Jupyter and Tableau. Applied statistical tests suited to each variable type and distribution (e.g., t-tests, ANOVA, Wilcoxon).   |
+| **Interpretation** | Combined numeric/statistical insights (e.g., p-values) with Tableau dashboards to communicate findings through dynamic charts and annotated stories. |
+
+---
+
+### Rationale for Research Methodologies
+
+- **Hypothesis-Driven Approach:** We defined practical questions relevant to strategic decisions and tested them with appropriate statistical methods.
+- **Tableau Public for Storytelling:** Enabled the team to create highly interactive and filterable dashboards for accessible, intuitive data exploration.
+- **Python for Processing:** All cleaning and transformation were done in Python to ensure transparency, reproducibility, and modular processing.
+
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+#### Identify Key Drivers of Car Price Business Need: 
+Understanding which features most influence pricing to support pricing strategy or customer targeting
+
+Viusalisation: 
+- Scatter plots of Engine Size and vehicle size vs Price
+- Box plots of Drive Wheel vs Price Rationale: These visuals make it easy to see trends and variation across technical specs. Outliers or clusters can suggest relationships worth exploring with statistical testing.
+
+### Compare Brand Positioning in the Market Business Need:
+Evaluate how brands are priced in relation to each other to guide competitive analysis or partnership decisions.
+
+Visualisation: 
+- Bar charts showing Average Price by Brand
+- Box plots showing Price spread within each brand Rationale: Highlights both the average market position and the consistency or variation in pricing within a brand—key for brand strategy.
+
+### Assess Pricing Strategy Based on Drive wheel Configuration Business Need:
+Determine how drive wheel (FWD, RWD, 4WD) impacts perceived value or cost to align with customer preferences
+
+Visualisation:
+ - Box plots or grouped bar charts of Drive Wheel vs Price Rationale: These plots show how drivetrain types cluster at different price tiers, helping identify if pricing strategies align with drivetrain desirability.
+
+### Monitor Variability in Price Across Technical Specs Business Need:
+Understand how variability in engine size, weight, and dimensions affects pricing to spot inconsistent or misaligned pricing.
+
+Visualisation:
+- Line graphs or histograms for price distribution Rationale: Helps detect relationships between variables and whether price changes smoothly or erratically with technical attributes.
 
 ## Analysis techniques used
 * The ETL pipeline was done in a Jupyter notebook using pandas which can be found  [here](https://github.com/Fazestar01/Car-Price-Analysis/blob/main/jupyter_notebooks/car_price_investigations.ipynb). This allows a structured approach to data cleaning as you can see what you've done previously very clearly.
