@@ -59,10 +59,53 @@ Drive wheel configuration shows a noticeable impact on pricing. Vehicles with 4W
 That being said, drive wheel configuration is a key influencer in car pricing, as it reflects performance capability and intended vehicle use. Sports cars often use FWD or RWD systems, emphasizing speed and handling on smooth terrain—similar to race engineering like in Formula 1. On the other hand, 4WD vehicles like Land Rovers are built for versatility and off-road strength, justifying higher prices due to advanced drivetrain design and rugged capability.
 
 
-## Project Plan  (Faiza hasnt done yet)
-* Outline the high-level steps taken for the analysis.( angle used, planning, picking the dataset, how we cleaned it )
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+## Project Plan 
+
+## 📌 Project Plan
+
+### 1. High-Level Steps Taken
+
+**Angle Used**  
+This project investigates the key factors that influence car pricing in the U.S. market, focusing on how technical specifications (like engine size and horsepower), brand identity, and drivetrain configurations shape value. The goal was to generate actionable insights that could support pricing strategy, competitive positioning, or product development for an automotive company entering the market.
+
+**Dataset Selection**  
+We selected the [Car Price Prediction dataset on Kaggle](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction) for its wide coverage of useful variables — including brand, engine size, horsepower, body style, and drivetrain type — making it ideal for both statistical testing and visual storytelling.
+
+**Planning & Analysis Flow**
+- Defined hypotheses (H1–H4) to guide exploratory work and support business-focused questions.
+- Performed descriptive analysis to explore distributions, spot outliers, and assess feature importance.
+- Conducted hypothesis testing using parametric (e.g., t-test, ANOVA) and nonparametric tests (e.g., Mann-Whitney U), depending on the distribution of data.
+- Built interactive visual dashboards in Tableau to present findings in a clear and engaging format.
+
+**Data Cleaning**
+- Removed duplicates and handled missing/null values.
+- Standardised column names and ensured data types were consistent across numeric and categorical variables.
+- Trimmed text fields and converted numerical values where necessary to support reliable analysis.
+- Engineered new features such as `price_per_horsepower` to reflect value-performance metrics.
+
+---
+
+### 2️. Data Management Throughout the Project
+
+| **Step**        | **Action**                                                                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Collection**  | Downloaded CSV file from Kaggle and stored it in a version-controlled GitHub repository for team collaboration.                                       |
+| **Processing**  | Used Python (Pandas) in Jupyter Notebook to clean and transform data, including formatting, encoding, and feature engineering.                         |
+| **Analysis**    | Performed EDA in both Jupyter and Tableau. Applied statistical tests suited to each variable type and distribution (e.g., t-tests, ANOVA, Wilcoxon).   |
+| **Interpretation** | Combined numeric/statistical insights (e.g., p-values) with Tableau dashboards to communicate findings through dynamic charts and annotated stories. |
+
+---
+
+### 3️. Rationale for Research Methodologies
+
+- **Hypothesis-Driven Approach:** We defined practical questions relevant to strategic decisions and tested them with appropriate statistical methods.
+- **Parametric + Nonparametric Testing:** Used flexible testing methods (e.g., Mann-Whitney U where normality was not met) to adapt to data structure and reliability needs.
+- **Tableau Public for Storytelling:** Enabled the team to create highly interactive and filterable dashboards for accessible, intuitive data exploration.
+- **Python for Processing:** All cleaning and transformation were done in Python to ensure transparency, reproducibility, and modular processing.
+
+This structured approach allowed us to move from raw data to business-ready insights in a scalable and replicable way.
+
+
 
 ## The rationale to map the business requirements to the Data Visualisations (done)
 
