@@ -1,192 +1,8 @@
-<<<<<<< HEAD
-![Banner image stating 'Car IMAGE'] !(image-1.png) 
-
-# Team Datatlicious [Anita, Faiza, Jane, Kaori]
-
-
-This car price analysis explores key factors influencing vehicle pricing in the U.S. market using an ETL pipeline.
-The dataset contains specifications of various car models, including brand, dimensions (length, width, height), engine size, curb weight, drive wheel type, fuel type, and price. The data was sourced from a public Kaggle dataset, allowing manageable analysis for business insights.
-
- Data was extracted, transformed for consistency, and loaded for analysis. Tableau visualisations reveal insights into variable relationships, helping Geely Auto understand pricing dynamics and inform strategic decisions for US market.
-
-
-## Navigation:
-Data Investigations
-Raw Data
-Cleaned Data
-Dashboard
-
-
- # Dataset Content:
-The dataset contains information on the relationship between car attributes (car_ID, symbolizing, CarName, fuel type, aspiration, number of doors, car body, drive wheel, engine location, and wheelbase) and other variables that impact car prices. It can be downloaded from the link below.
-
-Data comes from this [kaggle dataset](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction/data).
-
-# Business Requirements:
-An automobile company aims to enter the US market and compete with local and European manufacturer wish to understand the factors on which the pricing of cars depends on what factors.
-
-# Hypotheses and how to validate?:
-## Hypothesis 1: 
-Vehicle/Engine Size Hypothesis
-
-Question: Are vehicle dimensions and engine size primary drivers of car pricing?
-
-Dashboard Analysis:
-
-Scatter plots compare price with car length, width, height, and engine size.
-
-Trendlines are included, showing a positive correlation—especially with length, width, and engine size.
-
-Curb weight is explored via a horizontal bar chart, comparing average curb weight and average price by brand.
-
-Conclusion: Hypothesis Supported
-
-Larger cars with bigger engines tend to be priced higher.
-
-Strong correlation observed with engine size and car length/width.
-
-Minor correlation with height; not a strong price predictor.
-
-
-
-## Hypothesis 2:
- Brand Name Hypothesis
-Question: Does brand name strongly affect car pricing?
-
-Dashboard Analysis:
-
-Bar chart displays the median price by brand—Jaguar, Buick, and Porsche lead in price.
-
-Boxplot highlights brand-level pricing tiers with clear separation between economy and luxury segments.
-
-Conclusion: Hypothesis Strongly Supported
-
-Luxury brands (Jaguar, Porsche, BMW) command significantly higher prices.
-
-Clear pricing stratification by brand demonstrates brand equity's impact on pricing strategy.
-
-
-## Hypothesis 3: Drivewheel Hypothesis
-Question: Is drive wheel type a key differentiator in pricing?
-
-Dashboard Analysis:
-
-Boxplot shows price distributions for front-wheel (fwd), rear-wheel (rwd), and four-wheel (4wd) drive types.
-
-Rwd cars show higher median and upper-quartile prices, including luxury entries like BMW X4 and Buicks.
-
-4wd and fwd are generally lower priced, with overlapping interquartile ranges.
-
-Conclusion: Hypothesis Supported
-
-Rwd vehicles tend to be priced higher, suggesting positioning in more premium/luxury segments.
-
-Drive type contributes to price differentiation but is less dominant than brand or engine size.
-
-# The rationale to map the business requirements to the Data Visualisation
-Translate abstract business questions into measurable, visual insights.
-
-Provide decision-makers with intuitive tools to explore pricing patterns.
-
-Validate or reject key hypotheses through clear, visual evidence.
-
-Prioritize data storytelling by aligning each visualization with the business impact it reveals.
-
-
-
-# Project Plan 
-
-* Discuss and consider chosen research methodologies and data project 
-
-* Extract Transform load pipeline with data cleaning in Jupyter notebooks.
-* Visualisations: pie chart, histogram, bar chart and scatter plot.
-
-
-
-# Analysis Technologies used:
-* Visual Studio Code
-* Python 
-* Jupyter notebook
-* Microsoft Co-Pilot 
-
-
-
-# Ethical considerations:
-The car price dataset contained no personal information, ensuring privacy compliance. Bias was minimized by equally analysing all car brands and attributes. 
-Ethical practices followed included fair representation, avoidance of brand favoritism, and adherence to GDPR standards.
-
-
-# Dashboard Design
-The dashboards were designed to communicate insights through clean layouts, interactivity, and intuitive visuals. Tooltips, filters, and clear labels make data accessible to technical and non-technical users alike. Each dashboard page focuses on a specific hypothesis, using appropriate chart types to validate trends and relationships in the dataset.
-
-Insert a table 
-
-
-
-Communication Strategy:
-
-Complex data insights were translated into visually compelling and interactive dashboards. For technical audiences, detailed axis labels and tooltips provided context. For non-technical users, clear titles, color-coded data points, and filters helped simplify interpretation without sacrificing depth.
-
-
-
-#Project is managed over 6 stages, supported by GitHub project board (https://github.com/users/8osco/projects/6/views/1):
-
-1) Project setup with new GitHub repo for storage and version control, VScode as IDE, and access to Kaggle for dataset
-2) Data extract and familiarisation
-3) Data cleaning and preparation
-4) Data quality check
-5) Data analysis and visualisation
-6) README documentation
-7) Git Kansan Group Tracking Board
-
-## Unfixed Bugs:
-A struggle we encountered was getting collaborative works pushed to Github, this was solved using following Data Coach's guidance and Microsoft co-pilot. 
-
-## Main Data Analysis Libraries
-# Data Analysis Libraries:
-* Pandas 
-* Numpy 
-* Tableau
-
-# Credits:
-* [The Code Institute](https://codeinstitute.net/) Learning Management System modules, SME, data coach, PDBA sessions.
-* ChatGPT and Microsoft Copilot for code clarification and creation.
-* The image at the top of this README file was sourced from Kaggle.
-* Visual Studio Code
-* [Markdown guide](https://www.markdownguide.org/cheat-sheet/) was used to format the README.md and markdown cells in the Jupyter notebooks.
-
-## Unfixed Bugs
- we.........
-
-# Media:
-Header image for this document was made using [Canva](https://         ).
-
-# Acknowledgements: 
-A special thanks to Datalicious Group, Apr NH 2025 data analytics cohort and all coaches and tutors. The support received and discussions have been invaluable.
-
-
-
-
-
-
-
-
-
-
-
-
-# Acknowledgements: 
-A special thanks to Datalicious Group, Apr NH 2025 data analytics cohort and all coaches. The support received and discussions have been invaluable.
-
-
-
-=======
 # Car Price Analysis Project   Date: 18 June 2025
 ## Team: Datalicious
 ##### Team Members: Anita, Faiza, Kaori, Jane
 ###### 18 June 2025
 ## Car Price Analysis Project is a group hackathon project focussed on the ETL (Extract, Transform, Load) pipeline in Jupyter Notebook and visualisations in Tableau. The Project examines car pricing across range of factor to assess the primary drivers behind car prices.
->>>>>>> main
 
 ## The dataset contains specifications of various car models, including brand, dimensions (length, width, height), engine size, curb weight, drive wheel type, fuel type, and price. The data was sourced from a public Kaggle dataset, allowing manageable analysis for business insights.
 
@@ -202,3 +18,126 @@ A special thanks to Datalicious Group, Apr NH 2025 data analytics cohort and all
 * Data was acquried from a dataset on [Kaggle](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction), the data includes car prices across wide array of variables such as height, weight, brand and more. 
 
 # Business Requirements
+* The problem statement on Kaggle defines the business requirements. 
+* The problem statement states that we are assuming the role of a consultant for the automotive company Geely Auto.
+* We have been tasked with examining how different factors effect pricing across the US market.
+
+## Hypothesis and how to validate?
+###  *Hypothesis 1* vehicle and engine size are the primary drivers of car pricing:
+* This will be validated via linear regression models to display the R-Squared values and P-values of length, width, height and engine size. With this we can identify how strong the model is with the R-squared values and how confident we are with the P-values.
+### *Hypothesis 2* Brand names have an impact on car pricing:
+* This will be validated using a bar chart to see the differences in pricing and car brand. We will then use a boxplot chart to identify the distribution of pricing within those brands to gain greater insights.
+### *Hypothesis 3* Drive wheel is a key differentiator in pricing strategy:
+* We will validate this by using a boxplot chart that shows the distribution of pricing across rear wheel, four wheel and front wheel drive. 
+
+## Hypothesis testing:
+All visualisations that test our hypotheses can be found in this [Dashboard](https://public.tableau.com/app/profile/kaori.ikarashi/viz/CarPriceAnalysis_17501618237170/Story1?publish=yes). 
+
+
+
+
+## Project Plan
+The project board that aided in our planning and organisation can be found here
+
+### High-Level Steps Taken
+Angle Used
+This project investigates the key factors that influence car pricing in the U.S. market, focusing on how different factors shape value. The goal was to generate actionable insights that could support pricing strategy, competitive positioning, or product development for an automotive company entering the market.
+
+### Dataset Selection ###
+
+
+- Removed duplicates and handled missing/null values.
+- Fix errors in the data.
+- Encode to variables to numeric if necessary.
+
+
+We selected the [Car Price Prediction dataset on Kaggle](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction) for its wide coverage of useful variables — including brand, engine size, weight and more making it ideal for both statistical testing and visual storytelling.
+
+
+## Analysis techniques used
+* The ETL pipeline was done in a Jupyter notebook using pandas which can be found  [here](https://github.com/Fazestar01/Car-Price-Analysis/blob/main/jupyter_notebooks/car_price_investigations.ipynb). This allows a structured approach to data cleaning as you can see what you've done previously very clearly.
+* The data was not paticularly limiting, except it did not include what form of measurements it used. This however did not stop us identifying trends in the data. 
+* We used generative AI to resolve questions regarding dashboarding and git. 
+
+## Ethical considerations
+* The dataset contains no sensitive information thus does not require anonymisation or other ethical steps.
+
+## Dashboard Design
+*The Dashboard can be found [here](https://public.tableau.com/app/profile/kaori.ikarashi/viz/CarPriceAnalysis_17501618237170/Story1?publish=yes)*.
+### Dashboard preparation:
+The car name consists of the brand and manufacturer, so it is grouped into manufacturer to make the visualisation less crowded.
+
+![dashboard image](image-9.png)
+
+We used a Tableau Story format to keep the dashboard uncluttered. Viewers can explore each hypothesis using the buttons at the top.
+
+![dahsboard image](image-10.png)
+
+### Dashboard for hypothesis 1:
+![alt text](image-11.png)
+
+We used scatter plots to explore the relationship between vehicle size and price, adding trend lines to highlight which size factor has the most significant impact on pricing.
+
+The second graph uses a dual-axis chart to compare curb weight and price by car brand, helping to reveal each brand’s weight–price profile.
+
+We added a Car Name filter, allowing viewers to focus on vehicles from a specific manufacturer quickly.
+
+![dashboard image](image-12.png)
+
+### Dashboard for hypothesis 2:
+![dashboard image](image-14.png)
+
+We are exploring whether brand name affects car pricing.
+The first visualisation highlights which manufacturers tend to price their vehicles higher on average.
+The second graph illustrates the distribution of prices within each brand, enabling us to understand how consistent a company is with its pricing and identify brands with greater price variation.
+
+To enhance interactivity, we added Carbody and Fueltype filters, allowing viewers to explore pricing patterns across different vehicle types and fuel categories.
+
+![dashboard image](image-15.png)
+
+### Dashboard for hypothesis 3:
+
+![dashboard](image-16.png)
+
+We are analysing whether drivewheel type affects car pricing.
+
+A box plot is used to compare the price distribution across 4WD, FWD, and RWD vehicles.
+To enhance interactivity, we included the same Carbody and Fueltype filters as in Hypothesis 2, allowing viewers to explore pricing patterns in more detail.
+
+### Our logo:
+
+![alt text](image-18.png)
+
+To highlight that our team created this work, Datalicious, we added our logo to the top of each page
+
+
+
+## Development Roadmap and issues faced
+* The types of measurements for things such as height, weight etc were not included, to resolve this we asked Copilot what it thought the most reasonable assumption of the measurements are.
+* One aspect of data cleaning was overlooked, 'VW' should have been changed to 'Volkswagen' in the Jupyter notebook. This was solved by using the 'groupby' function in Tableau to group VW under Volkswagen. 
+* We had struggles with git that were resolved with a mixture of co-pilot and help from our tutors.
+* Images couldn't be moved into an image folder without them being removed from github. That will be something we look more into for the next project.
+
+
+## Main Data Analysis Libraries
+* Pandas
+* Numpy
+
+
+## Credits 
+
+* Code Institute Learning Management System modules on pandas and tableau
+* Microsoft co-pilot aid in code generation
+* Chat-GPT for questions regarding dashboarding in Tableau
+* [Markdown Guide](https://www.markdownguide.org/)
+
+
+### Media
+
+- Header image was made using Canva
+
+
+## Acknowledgements
+* A huge thank you to Mark, Emma, John, Spencer and Niel from Code institute for their hard work in tutoring us! And a thank you to Carlos who showed us how to add a back to the top button on markdown. 
+
+[Back to top](#top)
