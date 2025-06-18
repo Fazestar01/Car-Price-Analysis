@@ -106,7 +106,7 @@ We selected the [Car Price Prediction dataset on Kaggle](https://www.kaggle.com/
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Collection**  | Downloaded CSV file from Kaggle and stored it in a version-controlled GitHub repository for team collaboration.                                       |
 | **Processing**  | Used Python (Pandas) in Jupyter Notebook to clean and transform data, including formatting, encoding, and feature engineering.                         |
-| **Analysis**    | Performed EDA in both Jupyter and Tableau. Applied statistical tests suited to each variable type and distribution (e.g., t-tests, ANOVA, Wilcoxon).   |
+| **Analysis**    | Performed EDA in both Jupyter and Tableau. Applied statistical methods suited such as linear regression.
 | **Interpretation** | Combined numeric/statistical insights (e.g., p-values) with Tableau dashboards to communicate findings through dynamic charts and annotated stories. |
 
 ---
