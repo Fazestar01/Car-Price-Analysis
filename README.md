@@ -90,7 +90,7 @@ This project investigates the key factors that influence car pricing in the U.S.
 We selected the [Car Price Prediction dataset on Kaggle](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction) for its wide coverage of useful variables — including brand, engine size, weight and more making it ideal for both statistical testing and visual storytelling.
 
 **Planning & Analysis Flow**
-- Defined hypotheses (H1–H4) to guide exploratory work and support business-focused questions.
+- Defined hypotheses (H1–H3) to guide exploratory work and support business-focused questions.
 - Performed descriptive analysis to explore distributions, spot outliers, and assess feature importance.
 - Conducted hypothesis testing using linear regression and data visualisations.
 - Built interactive visual dashboards in Tableau to present findings in a clear and engaging format.
