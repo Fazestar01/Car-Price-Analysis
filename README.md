@@ -21,7 +21,12 @@
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+###  *Hypothesis 1*: vehicle and engine size are the primary drivers of car pricing:
+* This will be validated via linear regression models to display the R Squared values and P values of length, width, height and engine size. With this can identify how strong the model is with the R squared values and how confident we are with the p values.
+### *Hyothesis 2*: Brand names have an impact on car pricing:
+* This will be validated using a bar chart to see the differences in pricing and car brand. We will then use a boxplot chart to identify the distribution of pricing within those brands to gain greater insights.
+### *Hypothesis 3*: Drive wheel is a key differentiator in pricing strategy:
+* We will validate this by using a boxplot chart that shows the distribution of pricing across rear wheel, four wheel and front wheel drive. 
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
