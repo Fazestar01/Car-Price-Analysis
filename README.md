@@ -76,7 +76,7 @@ There seems to be a clear patten of brand names effecting price, thus we can rej
 ![Drive Wheel Hypothesis](image-8.png)
 The boxplots show that rear wheel drive cars tend to be most expensive and 4 wheel drive and front wheel drive are fairly similar in price. Rear wheel drive has the most variation in distribution and both rear wheel and front wheel have outliers in the higher price point. 
 
-### Verdict:
+#### Verdict:
 Our hypothesis is correct that is a relationship between drive wheel and price, however this seems to only be true is so far as rear wheel drive cars tend to be more expensive. 
 
 
@@ -89,13 +89,12 @@ Our hypothesis is correct that is a relationship between drive wheel and price, 
 * List your business requirements and a rationale to map them to the Data Visualisations
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* The ETL pipeline was done in a Jupyter notebook using pandas which can be found  [here](https://github.com/Fazestar01/Car-Price-Analysis/blob/main/jupyter_notebooks/car_price_investigations.ipynb). This allows a structured approach to data cleaning as you can see what you've done previously very clearly.
+* The data was not paticularly limiting, except it did not include what form of measurements it used. This however did not stop us identifying trends in the data. 
+* We used generative AI to resolve questions regarding dashboarding and git. 
 
 ## Ethical considerations
-* The dataset contains no sensitive information and thus does not require anonymisation or other ethical steps.
+* The dataset contains no sensitive information thus does not require anonymisation or other ethical steps.
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
