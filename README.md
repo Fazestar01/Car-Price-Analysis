@@ -31,7 +31,7 @@
 ## Hypothesis testing:
 All visualisations that test our hypotheses can be found in this [Dashboard](https://public.tableau.com/app/profile/kaori.ikarashi/viz/CarPriceAnalysis_17501618237170/Story1?publish=yes). 
 
-### Hypothesis 1: vehicle and engine size are the primary drivers of car pricing:
+### *Hypothesis 1* vehicle and engine size are the primary drivers of car pricing
 #### linear regression model:
 ![alt text](image-3.png)
 
@@ -58,8 +58,26 @@ With a low R-Squared value of 0.01 and higher P-value of 0.089 we can see that t
 
 With high R-Squared value of 0.76 and a P-value of 0.0001 this factor is the best predictor for price, with an incredibly strong relationship. 
 
-#### verdict:
-All factors except for car height are good predictors for car pricing, with engine size having the strongest correlation with price. 
+#### Verdict:
+All factors except for car height are good predictors for car pricing, with engine size having the strongest correlation with price. We can accept the altenative hypothesis and reject the null hypothesis.
+
+### *Hypothesis 2* Brand names have an impact on car pricing:
+![alt text](image-7.png)
+
+From the bar chart we can see that there is a relationship between branding and price, with brands such as Jaguar, Buick and Porsche having the highest median prices and brands such Honda and Chevrolet having the lowest.
+The boxplot shows us that the distribution within brand varies for example BMW has a large distance between lower and upper whiskers, Chevrolet having very little variation and Toyota having a large amount outliers (since we are using the median rather than mean the effect of those outliers will be minimal).
+
+
+
+#### Verdict:
+There seems to be a clear patten of brand names effecting price, thus we can reject the null hypothesis and accept the alternative hypothesis. 
+
+### *Hypothesis 3*: Drive wheel is a key differentiator in pricing strategy
+![Drive Wheel Hypothesis](image-8.png)
+The boxplots show that rear wheel drive cars tend to be most expensive and 4 wheel drive and front wheel drive are fairly similar in price. Rear wheel drive has the most variation in distribution and both rear wheel and front wheel have outliers in the higher price point. 
+
+### Verdict:
+Our hypothesis is correct that is a relationship between drive wheel and price, however this seems to only be true is so far as rear wheel drive cars tend to be more expensive. 
 
 
 ## Project Plan
