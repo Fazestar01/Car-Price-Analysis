@@ -1,5 +1,5 @@
 # Car Price Analysis
-## Team Datalicious: (Jane, Faiza, Kaori and Anita)
+### Team Datalicious: ([Jane Weightman](https://github.com/Janeweightman), [Faiza Abdulqadir](https://github.com/Fazestar01) , [Kaori Ikarashi](https://github.com/Kaori61) and [Anita Ng](https://github.com/nitcode-cyber))
 
 **Car Price Analysis Project** is a group hackathon project focussed on the ETL (Extract, Transform, Load) pipeline in Jupyter Notebook and visualisations in Tableau. The Project examines car pricing across range of factor to assess the primary drivers behind car prices. 
 # ![Heading picture with title 'carprice analysis](image.png)
