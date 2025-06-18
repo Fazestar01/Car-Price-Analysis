@@ -97,10 +97,56 @@ Our hypothesis is correct that is a relationship between drive wheel and price, 
 * The dataset contains no sensitive information thus does not require anonymisation or other ethical steps.
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+### Dashboard preparation:
+The car name consists of the brand and manufacturer, so it is grouped into manufacturer to make the visualisation less crowded.
+
+![dashboard image](image-9.png)
+
+We used a Tableau Story format to keep the dashboard uncluttered. Viewers can explore each hypothesis using the buttons at the top.
+
+![dahsboard image](image-10.png)
+
+### Dashboard for hypothesis 1:
+![alt text](image-11.png)
+
+We used scatter plots to explore the relationship between vehicle size and price, adding trend lines to highlight which size factor has the most significant impact on pricing.
+
+The second graph uses a dual-axis chart to compare curb weight and price by car brand, helping to reveal each brand’s weight–price profile.
+
+We added a Car Name filter, allowing viewers to focus on vehicles from a specific manufacturer quickly.
+
+![alt text](image-12.png)
+
+### Dashboard for hypothesis 2:
+![alt text](image-14.png)
+
+We are exploring whether brand name affects car pricing.
+The first visualisation highlights which manufacturers tend to price their vehicles higher on average.
+The second graph illustrates the distribution of prices within each brand, enabling us to understand how consistent a company is with its pricing and identify brands with greater price variation.
+
+To enhance interactivity, we added Carbody and Fueltype filters, allowing viewers to explore pricing patterns across different vehicle types and fuel categories.
+
+![alt text](image-15.png)
+
+### Dashboard for hypothesis 3:
+
+![alt text](image-16.png)
+
+We are analysing whether drivewheel type affects car pricing.
+
+A box plot is used to compare the price distribution across 4WD, FWD, and RWD vehicles.
+To enhance interactivity, we included the same Carbody and Fueltype filters as in Hypothesis 2, allowing viewers to explore pricing patterns in more detail.
+
+### Our logo:
+
+![alt text](image-18.png)
+
+To highlight that our team created this work, Datalicious, we added our logo to the top of each page
+
+
+
+
+
 
 
 ## Development Roadmap and issues faced
