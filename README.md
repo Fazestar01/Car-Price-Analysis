@@ -137,7 +137,7 @@ Visualisation:
 Determine how drive wheel (FWD, RWD, 4WD) impacts perceived value or cost to align with customer preferences
 
 Visualisation:
- - Box plots or grouped bar charts of Drive Wheel vs Price Rationale: These plots show how drivetrain types cluster at different price tiers, helping identify if pricing strategies align with drivetrain desirability.
+ - Box plots or grouped bar charts of Drive Wheel vs Price Rationale: These plots show how drive wheel types cluster at different price tiers, helping identify if pricing strategies align with drive wheel desirability.
 
 ### Monitor Variability in Price Across Technical Specs Business Need:
 Understand how variability in engine size, weight, and dimensions affects pricing to spot inconsistent or misaligned pricing.
