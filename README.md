@@ -72,7 +72,7 @@ The boxplot shows us that the distribution within brand varies for example BMW h
 #### Verdict:
 There seems to be a clear patten of brand names effecting price, thus we can reject the null hypothesis and accept the alternative hypothesis. 
 
-### *Hypothesis 3*: Drive wheel is a key differentiator in pricing strategy
+### *Hypothesis 3* Drive wheel is a key differentiator in pricing strategy:
 ![Drive Wheel Hypothesis](image-8.png)
 The boxplots show that rear wheel drive cars tend to be most expensive and 4 wheel drive and front wheel drive are fairly similar in price. Rear wheel drive has the most variation in distribution and both rear wheel and front wheel have outliers in the higher price point. 
 
@@ -97,6 +97,7 @@ Our hypothesis is correct that is a relationship between drive wheel and price, 
 * The dataset contains no sensitive information thus does not require anonymisation or other ethical steps.
 
 ## Dashboard Design
+*The Dashboard can be found [here](https://public.tableau.com/app/profile/kaori.ikarashi/viz/CarPriceAnalysis_17501618237170/Story1?publish=yes)*.
 ### Dashboard preparation:
 The car name consists of the brand and manufacturer, so it is grouped into manufacturer to make the visualisation less crowded.
 
@@ -115,10 +116,10 @@ The second graph uses a dual-axis chart to compare curb weight and price by car 
 
 We added a Car Name filter, allowing viewers to focus on vehicles from a specific manufacturer quickly.
 
-![alt text](image-12.png)
+![dashboard image](image-12.png)
 
 ### Dashboard for hypothesis 2:
-![alt text](image-14.png)
+![dashboard image](image-14.png)
 
 We are exploring whether brand name affects car pricing.
 The first visualisation highlights which manufacturers tend to price their vehicles higher on average.
@@ -126,11 +127,11 @@ The second graph illustrates the distribution of prices within each brand, enabl
 
 To enhance interactivity, we added Carbody and Fueltype filters, allowing viewers to explore pricing patterns across different vehicle types and fuel categories.
 
-![alt text](image-15.png)
+![dashboard image](image-15.png)
 
 ### Dashboard for hypothesis 3:
 
-![alt text](image-16.png)
+![dashboard](image-16.png)
 
 We are analysing whether drivewheel type affects car pricing.
 
@@ -145,14 +146,11 @@ To highlight that our team created this work, Datalicious, we added our logo to 
 
 
 
-
-
-
-
 ## Development Roadmap and issues faced
 * The types of measurements for things such as height, weight etc were not included, to resolve this we asked Copilot what it thought the most reasonable assumption of the measurements are.
 * One aspect of data cleaning was overlooked, 'VW' should have been changed to 'Volkswagen' in the Jupyter notebook. This was solved by using the 'groupby' function in Tableau to group VW under Volkswagen. 
 * We had struggles with git that were resolved with a mixture of co-pilot and help from our tutors.
+* Images couldn't be moved into an image folder without them being removed from github. That will be something we look more into for the next project.
 
 
 
