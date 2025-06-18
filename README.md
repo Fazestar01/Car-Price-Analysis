@@ -81,6 +81,7 @@ Our hypothesis is correct that is a relationship between drive wheel and price, 
 
 
 ## Project Plan
+The project board that aided in our planning and organisation can be found [here](https://github.com/users/Fazestar01/projects/4)
 ### High-Level Steps Taken
 
 **Angle Used**  
